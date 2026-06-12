@@ -56,7 +56,7 @@
 		</script>
 		<script>
 		import { DiscordSDK } from '@discord/embedded-app-sdk';
-const discordSdk = new DiscordSDK(YOUR_OAUTH2_CLIENT_ID);
+const discordSdk = new DiscordSDK(1514850759043322067);
 
 async function setup() {
  // Wait for READY payload from the discord client
@@ -64,7 +64,7 @@ async function setup() {
 
  // Pop open the OAuth permission modal and request for access to scopes listed in scope array below
  const { code } = await discordSdk.commands.authorize({
- client_id: YOUR_OAUTH2_CLIENT_ID,
+ client_id: 1514850759043322067,
  response_type: 'code',
  state: '',
  prompt: 'none',
